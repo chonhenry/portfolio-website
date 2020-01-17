@@ -1,0 +1,224 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 18px;
+  height: 100%;
+  background: #4b21ff;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.info-section .info-box {
+  position: absolute;
+  bottom: 60px;
+}
+
+.info-section .logo {
+  background: white;
+  height: 100px;
+  width: 200px;
+}
+
+.info-section h4 {
+  font-size: 1.2rem;
+  color: #fefefe;
+  margin: 0.7rem 0;
+}
+
+.info-section p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #fefefe;
+  margin: 0.2rem 0 1.6rem;
+}
+
+.content-area {
+  margin-left: 35%;
+  background: white;
+  width: 65%;
+  height: 100vh;
+}
+
+.img-container {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  height: 100%;
+}
+
+.content-area .img-container .user-img {
+  background: url(portfolio-img.jpeg) no-repeat center center;
+  /*background: url(https://i.imgur.com/R1YuS60.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+  height: 85%;
+  width: 500px;
+  position: absolute;
+  left: -250px;
+  top: 56px;
+}
+
+.content-area .profile-section {
+  vertical-align: top;
+  display: inline-block;
+  padding: 20% 0 0 0;
+  max-width: 500px;
+}
+
+.content-area .profile-section .profile h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+}
+
+.content-area .profile-section .profile h1 span {
+  color: #4b21ff;
+  font-size: 4rem;
+}
+
+.content-area .profile-section .profile h5 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.content-area .profile-section .profile p {
+  font-size: 1.2rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px #4b21ff solid;
+}
