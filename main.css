@@ -135,6 +135,7 @@ table {
   padding: 54px;
   width: 35%;
   position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -146,9 +147,15 @@ table {
 }
 
 .info-section .logo {
-  background: white;
-  height: 100px;
-  width: 200px;
+  border: 5px solid white;
+  height: 130px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  line-height: 0;
 }
 
 .info-section h4 {
@@ -164,11 +171,26 @@ table {
   margin: 0.2rem 0 1.6rem;
 }
 
+.info-section .fab {
+  color: #fefefe;
+}
+
+.info-section .fab:hover {
+  color: black;
+}
+
+.linkedin-logo {
+  margin-right: 10px;
+}
+
 .content-area {
   margin-left: 35%;
-  background: white;
+  background: #fefefe;
   width: 65%;
   height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .img-container {
@@ -179,7 +201,7 @@ table {
 }
 
 .content-area .img-container .user-img {
-  background: url(./img/portfolio-img.jpeg) no-repeat center center;
+  background: url(./img/ny.jpeg) no-repeat center center;
   /*background: url(https://i.imgur.com/R1YuS60.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -190,6 +212,7 @@ table {
   position: absolute;
   left: -250px;
   top: 56px;
+  box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.4);
 }
 
 .content-area .profile-section {
@@ -221,4 +244,52 @@ table {
   padding-bottom: 0.8rem;
   margin-bottom: 0.8rem;
   border-bottom: 2px #4b21ff solid;
+}
+
+.primary-btn {
+  background: #4b21ff;
+  border-radius: 24px;
+  text-align: center;
+  color: #fefefe;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.primary-btn:hover {
+  border: 2px solid #4b21ff;
+  background: #fefefe;
+  border-radius: 24px;
+  text-align: center;
+  color: #4b21ff;
+  padding: 13px 28px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.ghost-btn {
+  border: 2px solid #4b21ff;
+  border-radius: 24px;
+  text-align: center;
+  color: #4b21ff;
+  padding: 13px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.ghost-btn:hover {
+  background: #4b21ff;
+  border-radius: 24px;
+  text-align: center;
+  color: #fefefe;
+  padding: 13px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
