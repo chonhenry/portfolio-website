@@ -104,7 +104,6 @@ body {
   line-height: 1;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 18px;
-  height: 100%;
   background: #fefefe;
 }
 ol,
@@ -189,8 +188,7 @@ table {
 
 .content-area {
   margin-left: 20%;
-  margin-bottom: 5%;
-  background: #fefefe;
+
   width: 80%;
   height: 100%;
   position: absolute;

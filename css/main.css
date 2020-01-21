@@ -185,8 +185,9 @@ table {
 }
 
 .content-area {
+  position: relative;
   margin-left: 35%;
-  background: #fefefe;
+
   width: 65%;
   height: 100vh;
   position: absolute;
@@ -402,4 +403,9 @@ table {
     top: 0;
     box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.4);
   }
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100vw;
 }
