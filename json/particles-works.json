@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 150
+      "value": 80
     },
     "color": {
       "value": "#4b21ff"
@@ -30,7 +30,7 @@
     },
     "modes": {
       "repulse": {
-        "distance": 120
+        "distance": 130
       }
     }
   }
