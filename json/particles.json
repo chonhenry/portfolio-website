@@ -1,16 +1,16 @@
 {
   "particles": {
     "number": {
-      "value": 150
+      "value": 80
     },
     "color": {
-      "value": "#4b21ff"
+      "value": "#00cdac"
     },
     "size": {
       "value": 2
     },
     "line_linked": {
-      "color": "#4b21ff"
+      "color": "#00cdac"
     },
     "opacity": {
       "value": 0.5

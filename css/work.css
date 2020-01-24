@@ -131,7 +131,7 @@ table {
 }
 
 .info-section {
-  background: #4b21ff;
+  background: #00cdac;
   padding: 54px;
   width: 20%;
   position: absolute;
@@ -207,7 +207,7 @@ table {
   display: inline-block;
   font-size: 2.5rem;
   padding: 50px 0 20px 0;
-  border-bottom: 2px #4b21ff solid;
+  border-bottom: 2px #00cdac solid;
   margin-bottom: 30px;
   width: 200px;
 }
@@ -235,7 +235,7 @@ table {
   content: "";
   position: absolute;
   display: block;
-  background: #4b21ff;
+  background: #00cdac;
   opacity: 0.8;
   top: 0;
   left: 0;

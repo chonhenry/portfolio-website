@@ -132,7 +132,7 @@ table {
 }
 
 .info-section {
-  background: #4b21ff;
+  background: #00cdac; /*Previous color: #4b21ff*/
   padding: 54px;
   width: 35%;
   position: absolute;
@@ -232,7 +232,7 @@ table {
 }
 
 .content-area .profile-section .profile h1 span {
-  color: #4b21ff;
+  color: #00cdac;
   font-size: 4rem;
 }
 
@@ -245,11 +245,11 @@ table {
   font-size: 1.2rem;
   padding-bottom: 0.8rem;
   margin-bottom: 0.8rem;
-  border-bottom: 2px #4b21ff solid;
+  border-bottom: 2px #00cdac solid;
 }
 
 .primary-btn {
-  background: #4b21ff;
+  background: #00cdac;
   border-radius: 24px;
   text-align: center;
   color: #fefefe;
@@ -262,11 +262,11 @@ table {
 }
 
 .primary-btn:hover {
-  border: 2px solid #4b21ff;
+  border: 2px solid #00cdac;
   background: #fefefe;
   border-radius: 24px;
   text-align: center;
-  color: #4b21ff;
+  color: #00cdac;
   padding: 13px 28px;
   display: inline-block;
   text-transform: uppercase;
@@ -274,10 +274,10 @@ table {
 }
 
 .ghost-btn {
-  border: 2px solid #4b21ff;
+  border: 2px solid #00cdac;
   border-radius: 24px;
   text-align: center;
-  color: #4b21ff;
+  color: #00cdac;
   padding: 13px 31px;
   display: inline-block;
   text-transform: uppercase;
@@ -286,7 +286,7 @@ table {
 }
 
 .ghost-btn:hover {
-  background: #4b21ff;
+  background: #00cdac;
   border-radius: 24px;
   text-align: center;
   color: #fefefe;
