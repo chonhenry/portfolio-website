@@ -201,6 +201,7 @@ table {
   margin: auto;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .content-area .container .title {
@@ -286,7 +287,6 @@ table {
 
 .item-text-category {
   font-size: 1.2rem;
-
   margin: 0;
 }
 
@@ -306,7 +306,7 @@ table {
 
 .item-text-description {
   font-size: 1.2rem;
-  margin: 0;
+  margin: 0 5px;
 }
 
 /*------------------------------------------------------------------------------------------------*/
